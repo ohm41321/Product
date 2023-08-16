@@ -107,6 +107,7 @@
         padding: 10px;
         margin: 0 auto;
     }
+
 }
 @media screen and (max-width: 768px) {
     .product{
@@ -129,6 +130,23 @@
     }
     .modal-text{
         font-size: 0.5vw;
+    }
+}
+@media screen and (max-width: 400px) {
+    .product{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        }
+    .product-card{
+        padding: 90px;
+        margin: 0 50px;
+    }
+    .text-list{
+        margin-right: 9px;
+        background-color: #662805;
+    }
+    .ikura-text{
+        margin-left: 0px;
     }
 }
 .product-card{
@@ -236,15 +254,15 @@
 .ikura{
 
     justify-content: center;
-    margin-right: 50%;
+    margin-right: 30%;
     border-radius: 25px;
 }
 .ikura-text{
     font-family: 'Preahvihear', sans-serif;
-    margin-top: 35px;
+    margin-top: 30px;
     text-align: center;
-    font-size: 1.5vw;
-    
+    font-size: 1vw;
+    margin-right: 0px;
 }
 .modal-zone{
     margin-right: 3.5vw;
