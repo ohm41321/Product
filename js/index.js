@@ -103,7 +103,7 @@ function selectproduct(mid, mname, mprice) {
         discount = sumprice * 0.1;
         html += `<div class="list-name-price">
                 <div style="color: #b3250c">Discount</div>
-                : 10% When price over 1K</div>`;
+                : 10% When price > 1K</div>`;
     }
 
     html += `<div class="list-name-price">

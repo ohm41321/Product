@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+JP:wght@500&family=Noto+Sans:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+JP:wght@500&family=Noto+Sans:wght@500&family=Preahvihear&display=swap');
 
 
 *{
@@ -26,7 +27,7 @@
     margin-bottom: -25px;
     text-align: center;
     font-size: 2.5vw;
-    font-family: 'Lobster', cursive;
+    font-family: 'Preahvihear', sans-serif;
 }
 .img-preview{
     margin-left: 25px;
@@ -66,7 +67,7 @@
     margin-top: -4vw;
     text-align: center;
     font-size: 3vw;
-    font-family: 'Lobster', cursive;
+    font-family: 'Preahvihear', sans-serif;
 }
 .img-header{
     margin-left: 20px;
@@ -80,6 +81,36 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 50px;
+}
+@media screen and (max-width: 1440px) {
+    .product-card{
+        padding: 2px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .product{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2.5vw 2.5vw;
+    grid-gap: 50px;
+    }
+    .clear{
+        font-size: 0.85vw;
+        margin-right: 5px;
+    }
+    .product-card{
+        padding: 10px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .product{
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    }
+    .product-card{
+        padding: 100px;
+        margin: 0 auto;
+    }
 }
 .product-card{
     background-color: rgba(230, 230, 230, 0.9);
@@ -107,7 +138,7 @@
     margin-right: 20px;
     margin-top: -10px;
     text-align: right;
-    font-family: 'Lobster', cursive;          /* add-itembt */
+    font-family: 'Preahvihear', sans-serif;          /* add-itembt */
     font-size: 2vw;
     color: rgb(114, 114, 114);
 }
@@ -173,7 +204,7 @@
 .price-eng{
     margin-top: 7px;
     font-size: 1.5vw;
-    font-family: 'Lobster', cursive;
+    font-family: 'Preahvihear', sans-serif;
     text-align: center;
     color:aliceblue
 }
@@ -190,7 +221,7 @@
     border-radius: 25px;
 }
 .ikura-text{
-    font-family: 'Lobster', cursive;
+    font-family: 'Preahvihear', sans-serif;
     margin-top: 35px;
     text-align: center;
     font-size: 1.5vw;
@@ -200,7 +231,6 @@
     margin-right: 3.5vw;
     justify-content: center;
     text-align: center;
- 
 }
 .modalbt{
     margin: 25px auto;
@@ -211,7 +241,7 @@
     transition: 300ms;
 }
 .modal-text{
-    font-family: 'Lobster', cursive;
+    font-family: 'Preahvihear', sans-serif;
     font-size: 1.5vw;
     border: none;
 }
@@ -252,17 +282,17 @@
     text-align: center;
     font-size: 1.5vw;
     font-weight: bold;
-    font-family: 'Lobster', cursive;
+    font-family: 'Preahvihear', sans-serif;
 }
 .text-list{
     background-color: #066a33;
-    margin-left: 4.5vw;
+    margin-left: 3vw;
     font-size: 1.5vw;
-    font-family: 'Lobster', cursive;
+    font-family: 'Preahvihear', sans-serif;
     text-decoration: unset;
     color: white;
     border-radius: 30px;
-    padding: 10px;
+    padding: 7px;
     transition: 150ms;
 } 
 .price{
@@ -272,11 +302,11 @@
 .clear{
     background-color: #662805;
     font-size: 1.5vw;
-    font-family: 'Lobster', cursive;
+    font-family: 'Preahvihear', sans-serif;
     color: white;
     border-radius: 30px;
-    padding: 10px;
-    margin-left: 35px;
+    padding: 7px;
+    margin-left: 40px;
     cursor: pointer;
     transition: 250ms;
 }
@@ -288,18 +318,17 @@
     margin-top: 1vw;
 }
 .list-name-price{
-    font-family: 'Lobster', cursive;
+    font-family: 'Preahvihear', sans-serif;
     border-radius: 15px;
     padding: 3.5px;
     font-size: 1.1vw;
     display: flex;
-    margin-top: 5px;
     justify-content: space-between;
     margin-left: 3vw;
     margin-right: 77.5vw;
 }
 .totalprice{
-    font-family: 'Lobster', cursive;
+    font-family: 'Preahvihear', sans-serif;
     font-family: 'Noto Sans JP', sans-serif;
     border-radius: 15px;
     padding: 3.5px;
