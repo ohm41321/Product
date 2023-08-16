@@ -8,6 +8,8 @@ modal_btn.addEventListener('click', openModal);
 
 close_btn.addEventListener('click', closeModal);
 
+window.addEventListener('click', clickoutside);
+
 function openModal(){
     modal_page.style.display = 'block';
 }
@@ -15,6 +17,13 @@ function openModal(){
 function closeModal(){
     modal_page.style.display = 'none';
 }
+
+function clickoutside(e){
+    if(e.target == modal_page){
+        modal_page.style.display = 'none';
+    }
+}
+
 
 $(document).ready(() => {
     var menu = [

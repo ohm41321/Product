@@ -36,15 +36,15 @@
     height: 45px;
 }
 .eng-name{
-    margin-left: 35vw;
-    font-size: 2vw;
+    margin-left: 34vw;
+    font-size: 40px;
     text-transform: uppercase;
     color:#ffffff;
     text-decoration: unset;
     font-family: 'Noto Sans', sans-serif;
 }
 .jp-name{
-    font-size: 2vw;
+    font-size: 40px;
     text-transform: uppercase;
     color:#ffffff;
     text-decoration: unset;
@@ -93,6 +93,12 @@
     margin: 2.5vw 2.5vw;
     grid-gap: 50px;
     }
+    .eng-name{
+        font-size: 35px;
+    }
+    .jp-name{
+        font-size: 35px;
+    }
     .clear{
         font-size: 0.85vw;
         margin-right: 5px;
@@ -109,7 +115,20 @@
     }
     .product-card{
         padding: 100px;
-        margin: 0 auto;
+        margin: 0 185px;
+    }
+    .text-list{
+    margin-right: 0px;
+    background-color: #662805;
+    }
+    .eng-name{
+        font-size: 25px;
+    }
+    .jp-name{
+        font-size: 25px;
+    }
+    .modal-text{
+        font-size: 0.5vw;
     }
 }
 .product-card{
@@ -261,6 +280,8 @@
     background-color: rgba(0, 0, 0, 0.45);
 }
 .modal_content{
+    animation-name: modalopen;
+    animation-duration: 1s;
     background: white;
     margin: 20% auto;
     padding: 20px;
@@ -277,6 +298,10 @@
     color: black; 
     cursor: pointer;
 }
+@keyframes modalopen {
+    from{opacity: 0}
+    to{opacity: 1}
+}   
 .text-head-modal{
     margin-bottom: 20px;
     text-align: center;
@@ -295,20 +320,17 @@
     padding: 7px;
     transition: 150ms;
 } 
-.price{
-    background-color:#064B6A;
-    margin-left: 3.5vw;
-}
 .clear{
     background-color: #662805;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     font-family: 'Preahvihear', sans-serif;
     color: white;
     border-radius: 30px;
-    padding: 7px;
-    margin-left: 40px;
+    padding: 6.5px;
+    margin-left: 20px;
     cursor: pointer;
     transition: 250ms;
+    text-decoration: unset;
 }
 .clear:hover{
     background-color: #064B6A;
