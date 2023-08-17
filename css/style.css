@@ -445,19 +445,24 @@ input[type="email"] {
     border: 1px solid #064B6A;
     border-radius: 4px;
 }
-input[type="submit"] {
+.btsub{
     background-color: #064B6A;
     color: white;
-    padding: 10px;
+    padding: 15px;
     border: none;
-    border-radius: 15px;
+    border-radius: 30px;
     cursor: pointer;
-    transition: 300ms;
-    margin-left: 92%;
+    box-shadow: inset 0 0 0 0  #fabd14;
+    transition: ease-out 0.5s;
+    margin-top: 10px;
+    margin-left: 90%;
+    font-size: 1.25rem;
 }
-input[type="submit"]:hover {
-    transform: scale(1.15);
-    background-color: #45a049;
+.btsub:hover {
+    box-shadow: inset 45px 0px 27px 0px #fabd14;
+    border: none;
+    color: black;
+    transform: scale(1.05);
 }
 
 
