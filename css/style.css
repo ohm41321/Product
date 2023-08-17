@@ -375,18 +375,24 @@
 }
 .list-name-price{
     font-family: 'Preahvihear', sans-serif;
-    border-radius: 15px;
-    padding: 3.5px;
-    font-size: 1.1vw;
+    background-color:#d6d6d6d5;
+    color: black;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5vw;
     display: flex;
     justify-content: space-between;
+    margin-top: 5px;
     margin-left: 3vw;
-    margin-right: 77.5vw;
+    margin-right: 70.5vw;
+
 }
 .totalprice{
     font-family: 'Preahvihear', sans-serif;
     font-family: 'Noto Sans JP', sans-serif;
     border-radius: 15px;
+    border-color: black;
     padding: 3.5px;
     font-size: 1.1vw;
     display: flex;
@@ -397,8 +403,63 @@
 }
 .footer{
     text-align: center;
-    color: #064B6A;
+    color: #ffffff;
 }
+
+/* form zone */
+.form-zone {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-family: 'Preahvihear', sans-serif;
+    text-align: center;
+}
+.form-text{
+    font-family: 'Preahvihear', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #064B6A;
+    border-radius: 4px;
+    resize: vertical; 
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #064B6A;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #064B6A;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 300ms;
+    margin-left: 92%;
+}
+input[type="submit"]:hover {
+    transform: scale(1.15);
+    background-color: #45a049;
+}
+
 
 /* #064B6A blue   rgba(94, 153, 102, 0.918);  *.
 /*

@@ -111,13 +111,13 @@ function selectproduct(mid, mname, mprice) {
     if (sumprice > 1000) {
         discount = sumprice * 0.1;
         html += `<div class="list-name-price">
-                <div style="color: #b3250c">Discount</div>
-                : 10% When price > 1K</div>`;
+                <div style="color: #F01515">Discount:</div>
+                 10% When price > 1K</div>`;
     }
 
     html += `<div class="list-name-price">
-                <p>Total Price</p>
-                <p>合計金額</p>
+                <p style="color: #D85604">Total Price</p>
+                <p>合計金額 :</p>
                 <p>${numberWithCommas(sumprice - discount)} THB</p>
             </div>`;
     $("#list-boxs").html(html);
